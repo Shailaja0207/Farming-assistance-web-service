@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="supplierRegister.css">
+    <title>Supplier Registeration</title>
+</head>
+<body>
+    <div class="signup-form">
+        <h1> Supplier Registeration </h1>
+        <div class="txt">
+            <form action="SupplierPage.html" method="POST">
+               
+                <input type="Id" placeholder="supplier_id" required="" name="Supplier_id">
+        </div>
+        <div class="txt">
+                
+                <input type="text" placeholder="supplier_name" required="" name="Supplier_name">
+        </div>
+        <div class="txt">
+                
+                <input type="textarea" placeholder="supplier_address" required="" name="Supplier_address">
+        </div>
+         <div class="txt">
+                
+                <input type="phone" placeholder="supplier_contact" required="" name="Supplier_no">
+        </div>
+
+        <div class="txt">
+               
+                <input type="password" placeholder="supplier_password" required="" name="Password">
+        </div>
+        <div class="txt">
+                
+                <input type="password" placeholder="Confirm supplier_password Password" required="" name="CPassword">
+        </div>
+            <button class="btn" name="btn"> Signup </button>
+         <div class="txt">
+                <p>Already a supplier ? <a href="supplierLogin.html"> Login </p>
+            </div>
+
+        </form>
+    </div>
+    <input type="button" value="Go back!" onclick="history.back()">
+</body>
+</html>
